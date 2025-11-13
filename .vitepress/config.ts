@@ -2,30 +2,49 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'My Awesome Project',
-  description: 'A VitePress Site',
+  title: 'Estime Ai',
+  description:
+    'Ferramenta gratuita de Scrum Poker para times ágeis estimarem tarefas com precisão. Simples, online e sem complicações.',
   outDir: 'dist',
   srcDir: 'src',
   cleanUrls: true,
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-    ],
-
-    sidebar: [
+  lang: 'pt-BR',
+  appearance: false,
+  lastUpdated: true,
+  sitemap: {
+    lastmodDateOnly: true,
+    hostname: 'https://estimeai.com.br',
+    xmlns: {
+      image: false,
+      news: false,
+      video: false,
+      xhtml: false,
+    },
+  },
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+    [
+      'script',
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-        ],
+        async: '',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-5613K0J7FR',
       },
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5613K0J7FR');`,
     ],
+  ],
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    logo: '/favicon.png',
+    footer: {
+      message:
+        'Feito com ❤️ por <a href="https://github.com/douglasmiguel7" target="_blank"><strong>@douglasmiguel7</strong></a>',
+    },
   },
 })
