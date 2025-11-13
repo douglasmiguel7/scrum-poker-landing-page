@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/douglasmiguel7/scrum-poker-landing-page/issues"
   },
-  "homepage": "https://github.com/douglasmiguel7/scrum-poker-landing-page#readme"
+  "homepage": "https://github.com/douglasmiguel7/scrum-poker-landing-page#readme",
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.13"
+  }
 }
