@@ -1,6 +1,10 @@
 /* .vitepress/theme/custom.css */
 :root {
-  --vp-c-brand-1: #dda947;
+  --vp-home-hero-name-color: #dda947;
   --vp-button-brand-bg: #dda947;
   --vp-button-brand-hover-bg: #b38939;
+}
+
+.VPNavBarHamburger {
+  display: none !important;
 }
