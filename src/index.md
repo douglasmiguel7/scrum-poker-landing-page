@@ -12,7 +12,7 @@ hero:
       link: https://app.estimeai.com.br
 
 features:
-  - title: Fácil & Gratutio
+  - title: Fácil & Gratuito
     details: Faça estimativas rápidas com um site focado em agilidade
   - title: Convide e Estime Juntos
     details: Separe times por mesas, convide pessoas e estime juntos
