@@ -24,6 +24,18 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     [
+      'meta',
+      { name: 'google-adsense-account', content: 'ca-pub-9100351068609078' },
+    ],
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9100351068609078',
+        crossorigin: 'anonymous',
+      },
+    ],
+    [
       'script',
       {
         async: '',
@@ -42,9 +54,15 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.png',
+    outline: { label: 'Nesta página' },
+    returnToTopLabel: 'Voltar ao topo',
+    lastUpdated: { text: 'Atualizado em' },
+    docFooter: { prev: 'Anterior', next: 'Próxima' },
     footer: {
       message:
         'Feito com ❤️ por <a href="https://cafezinholabs.com" target="_blank" rel="noopener"><strong>Cafezinho Labs</strong></a>',
+      copyright:
+        '<a href="/termos">Termos de Uso</a> · <a href="/privacidade">Política de Privacidade</a>',
     },
   },
 })

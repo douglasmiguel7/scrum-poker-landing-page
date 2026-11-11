@@ -1,0 +1,22 @@
+# Estime Ai
+
+> Estime Ai é uma ferramenta gratuita de Scrum Poker (planning poker) para times ágeis estimarem tarefas juntos, no navegador e sem cadastro. Você cria uma mesa, compartilha o link com o time, cada pessoa vota com uma carta e as cartas são reveladas ao mesmo tempo. Feito pela Cafezinho Labs, em português.
+
+## Como funciona
+- Abra o app: uma mesa é criada na hora, com um nome que o dono pode trocar.
+- Clique em "Copiar link da mesa" e envie para o time; quem abre o link entra na mesa.
+- Cada pessoa escolhe "Sentar na mesa" para votar ou fica só assistindo.
+- Todos votam em segredo; quando todos votaram, alguém clica em "Revelar cartas" e, depois, em "Iniciar nova votação" para a próxima rodada.
+
+## Recursos
+- Sem cadastro: não pede e-mail nem senha; cada pessoa escolhe o nome que aparece na mesa.
+- Lista de tarefas da mesa, com título e link opcional (por exemplo, para o card no Jira), votadas uma a uma ou juntas.
+- Resultado da rodada com a quantidade de votos por carta, o total e a média.
+- Contagem regressiva para limitar o tempo de cada votação.
+- Várias mesas, uma por time, e envio de sugestões e relatos de bug pelo próprio app.
+
+## Links
+- Site: https://estimeai.com.br/
+- Abrir o app: https://app.estimeai.com.br
+- Política de Privacidade: https://estimeai.com.br/privacidade
+- Termos de Uso: https://estimeai.com.br/termos
