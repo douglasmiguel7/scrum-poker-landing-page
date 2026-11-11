@@ -44,7 +44,7 @@ export default defineConfig({
     logo: '/favicon.png',
     footer: {
       message:
-        'Feito com ❤️ por <a href="https://github.com/douglasmiguel7" target="_blank"><strong>@douglasmiguel7</strong></a>',
+        'Feito com ❤️ por <a href="https://cafezinholabs.com" target="_blank" rel="noopener"><strong>Cafezinho Labs</strong></a>',
     },
   },
 })
