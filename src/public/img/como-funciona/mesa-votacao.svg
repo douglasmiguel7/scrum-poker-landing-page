@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 780" width="1280" height="780" role="img" aria-labelledby="t d">
+  <title id="t">A mesa do Estime Ai durante uma votação</title>
+  <desc id="d">Tela do app com quem está na mesa à esquerda, a mensagem "Escolha sua carta!" no centro, as tarefas à direita e as cartas embaixo, com a carta 8 escolhida.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #262626; font-size: 14px; }
+    .muted { fill: #8c8c8c; }
+    .off { fill: #bfbfbf; }
+    .link { fill: #1890ff; }
+    .danger { fill: #ff4d4f; }
+    .bold { font-weight: 600; }
+    .white { fill: #ffffff; }
+    .ln { stroke: #f0f0f0; stroke-width: 1; }
+    .ic { fill: none; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <defs>
+    <g id="pen"><path d="M0 9l1-4 6.5-6.5 3 3L4 8z" class="ic" stroke="#1890ff"/></g>
+    <g id="plus"><circle r="6.5" class="ic"/><path d="M-3 0h6M0-3v6" class="ic"/></g>
+    <g id="av"><circle r="16" fill="#cccccc"/></g>
+    <g id="trash"><path d="M-6-5h12M-3-5v-2h6v2M-4.5-3l1 10h7l1-10" class="ic" stroke="#ff4d4f"/></g>
+    <g id="chev"><path d="M-4-2l4 4 4-4" class="ic"/></g>
+  </defs>
+
+  <!-- browser frame -->
+  <rect x="0.5" y="0.5" width="1279" height="779" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <path d="M12.5 0.5h1255a12 12 0 0 1 12 12v27.5H0.5V12.5a12 12 0 0 1 12-12z" fill="#f3f4f6"/>
+  <circle cx="22" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="20" r="6" fill="#28c840"/>
+  <rect x="460" y="9" width="360" height="22" rx="11" fill="#ffffff"/>
+  <text x="640" y="25" text-anchor="middle" class="muted" style="font-size:12px">app.estimeai.com.br</text>
+  <line x1="0" y1="40" x2="1280" y2="40" stroke="#e5e7eb"/>
+
+  <!-- header -->
+  <text x="56" y="84" style="font-size:28px">💡</text>
+  <text x="92" y="84" class="bold" style="font-size:28px">Scrum Poker</text>
+  <text x="278" y="82" class="muted">v1.10.1</text>
+  <text x="640" y="82" text-anchor="middle">Feito com 💗 por <tspan class="link bold" text-decoration="underline">Cafezinho Labs</tspan></text>
+  <use href="#av" x="1132" y="74"/><text x="1132" y="79" text-anchor="middle" class="white">A</text>
+  <text x="1158" y="79">Ana</text>
+  <use href="#pen" x="1192" y="70"/>
+  <line x1="0" y1="105" x2="1280" y2="105" class="ln"/>
+
+  <!-- page header -->
+  <text x="24" y="132" class="bold" style="font-size:20px">Refinamento da Sprint 42</text>
+  <text x="276" y="131" class="muted">criado por <tspan class="bold">você</tspan></text>
+  <text x="400" y="131">00:00</text>
+  <circle cx="450" cy="126" r="6.5" class="ic" stroke="#262626"/><path d="M450 125v4M450 122.5v.2" class="ic" stroke="#262626"/>
+  <circle cx="476" cy="126" r="6.5" class="ic" stroke="#1890ff"/><path d="M474 123v6l5-3z" fill="#1890ff"/>
+  <text x="488" y="131" class="link">Iniciar</text>
+  <use href="#chev" x="544" y="126" stroke="#1890ff"/>
+  <use href="#plus" x="574" y="126" stroke="#bfbfbf"/><text x="586" y="131" class="off">Adicionar 1 minuto</text>
+  <path d="M736 121a6 6 0 1 0 5 3M741 119v5h-5" class="ic" stroke="#bfbfbf"/><text x="750" y="131" class="off">Reiniciar</text>
+  <circle cx="824" cy="126" r="6.5" class="ic" stroke="#bfbfbf"/><path d="M821.5 123.5l5 5M826.5 123.5l-5 5" class="ic" stroke="#bfbfbf"/><text x="836" y="131" class="off">Parar</text>
+  <line x1="892" y1="117" x2="892" y2="135" stroke="#e8e8e8"/>
+  <text x="910" y="131" class="link">Minhas mesas</text>
+  <use href="#chev" x="1012" y="126" stroke="#1890ff"/>
+  <line x1="1034" y1="117" x2="1034" y2="135" stroke="#e8e8e8"/>
+  <text x="1050" y="131">Copiar link da mesa</text>
+  <rect x="1188.5" y="119.5" width="8" height="11" rx="1" class="ic" stroke="#1890ff"/>
+  <path d="M1192 117.5h7.5a1 1 0 0 1 1 1v10" class="ic" stroke="#1890ff"/>
+  <line x1="0" y1="147" x2="1280" y2="147" class="ln"/>
+
+  <!-- left side -->
+  <circle cx="44" cy="179" r="5.5" class="ic" stroke="#1890ff"/><path d="M42 186h4" class="ic" stroke="#1890ff"/>
+  <text x="58" y="184" class="link">Faça uma sugestão</text>
+  <path d="M52 225h14l-3-3M66 230H52l3 3" class="ic" stroke="#1890ff"/>
+  <text x="72" y="232" class="link">Ficar assistindo</text>
+  <text x="12" y="276" class="bold">Na mesa (4)</text>
+  <use href="#av" x="28" y="309"/><text x="28" y="314" text-anchor="middle" class="white">V</text><text x="52" y="314">Você</text>
+  <use href="#av" x="28" y="349"/><text x="28" y="354" text-anchor="middle" class="white">B</text><text x="52" y="354">Bruno</text>
+  <use href="#av" x="28" y="389"/><text x="28" y="394" text-anchor="middle" class="white">C</text><text x="52" y="394">Carla</text>
+  <use href="#av" x="28" y="429"/><text x="28" y="434" text-anchor="middle" class="white">D</text><text x="52" y="434">Diego</text>
+  <text x="12" y="478" class="bold">Assistindo (1)</text>
+  <use href="#av" x="28" y="511"/><text x="28" y="516" text-anchor="middle" class="white">P</text><text x="52" y="516">Paula</text>
+  <line x1="200" y1="147" x2="200" y2="660" class="ln"/>
+
+  <!-- center -->
+  <rect x="444.5" y="352.5" width="292" height="112" fill="#ffffff" stroke="#f0f0f0"/>
+  <text x="590.5" y="410" text-anchor="middle" class="bold" style="font-size:28px">Escolha sua carta!</text>
+  <text x="590.5" y="438" text-anchor="middle" class="muted bold" style="font-size:15px">Restam 2 votos</text>
+  <line x1="980" y1="147" x2="980" y2="660" class="ln"/>
+
+  <!-- right side: tasks -->
+  <text x="992" y="176" class="bold">Tarefas</text>
+  <text x="992" y="204">2 tarefas • 8 pontos</text>
+  <use href="#plus" x="999" y="235" stroke="#1890ff"/>
+  <text x="1015" y="240" class="link">Adicionar outra tarefa</text>
+
+  <rect x="992.5" y="264.5" width="275" height="220" rx="2" fill="#ffffff" stroke="#f0f0f0"/>
+  <line x1="993" y1="328" x2="1267" y2="328" class="ln"/>
+  <text x="1017" y="302" class="bold" style="font-size:16px">Login com Google</text>
+  <use href="#pen" x="1165" y="292"/>
+  <use href="#trash" x="1234" y="298"/>
+  <use href="#plus" x="1024" y="362" stroke="#1890ff"/>
+  <text x="1038" y="367" class="link">Adicionar pontuação</text>
+  <text x="1017" y="405">https://jira.exemplo.com/brows ...</text>
+  <use href="#pen" x="1232" y="396"/>
+  <rect x="1017" y="429" width="127" height="32" rx="2" fill="#1890ff"/>
+  <text x="1080.5" y="450" text-anchor="middle" class="white">Votando agora</text>
+  <path d="M1158 444l-2 2a3 3 0 0 0 4 4l2-2M1164 446l2-2a3 3 0 0 0-4-4l-2 2M1159 447l4-4" class="ic" stroke="#1890ff"/>
+  <text x="1175" y="450" class="link">Abrir link</text>
+
+  <rect x="992.5" y="500.5" width="275" height="150" rx="2" fill="#ffffff" stroke="#f0f0f0"/>
+  <line x1="993" y1="564" x2="1267" y2="564" class="ln"/>
+  <text x="1017" y="538" class="bold" style="font-size:16px">Tela de perfil</text>
+  <use href="#pen" x="1131" y="528"/>
+  <use href="#trash" x="1234" y="534"/>
+  <rect x="1017.5" y="582.5" width="64" height="22" rx="2" fill="#f6ffed" stroke="#b7eb8f"/>
+  <text x="1049.5" y="598" text-anchor="middle" style="font-size:12px;fill:#389e0d">8 pontos</text>
+  <use href="#pen" x="1090" y="588"/>
+  <rect x="1017.5" y="612.5" width="122" height="31" rx="2" fill="#ffffff" stroke="#d9d9d9"/>
+  <text x="1078.5" y="633" text-anchor="middle">Votar novamente</text>
+
+  <!-- footer: cards -->
+  <line x1="0" y1="660" x2="1280" y2="660" class="ln"/>
+  <g>
+    <rect x="332.5" y="688.5" width="40" height="64" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-dasharray="4 3"/><text x="352.5" y="725" text-anchor="middle">0</text>
+    <rect x="396.5" y="688.5" width="40" height="64" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-dasharray="4 3"/><text x="416.5" y="725" text-anchor="middle">1</text>
+    <rect x="460.5" y="688.5" width="40" height="64" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-dasharray="4 3"/><text x="480.5" y="725" text-anchor="middle">2</text>
+    <rect x="524.5" y="688.5" width="40" height="64" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-dasharray="4 3"/><text x="544.5" y="725" text-anchor="middle">4</text>
+    <rect x="588.5" y="688.5" width="40" height="64" rx="2" fill="#1890ff" stroke="#1890ff"/><text x="608.5" y="725" text-anchor="middle" class="white">8</text>
+    <rect x="652.5" y="688.5" width="40" height="64" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-dasharray="4 3"/><text x="672.5" y="725" text-anchor="middle">16</text>
+    <rect x="716.5" y="688.5" width="40" height="64" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-dasharray="4 3"/><text x="736.5" y="725" text-anchor="middle">32</text>
+    <rect x="780.5" y="688.5" width="40" height="64" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-dasharray="4 3"/><text x="800.5" y="725" text-anchor="middle">64</text>
+    <rect x="844.5" y="688.5" width="40" height="64" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-dasharray="4 3"/><text x="864.5" y="726" text-anchor="middle" style="font-size:16px">?</text>
+    <rect x="908.5" y="688.5" width="40" height="64" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-dasharray="4 3"/>
+    <path d="M922 714h11v6a4 4 0 0 1-4 4h-3a4 4 0 0 1-4-4zM933 716h2a2 2 0 0 1 0 4h-2M925 708v3M929 708v3" class="ic" stroke="#262626"/>
+  </g>
+</svg>

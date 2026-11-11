@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 258" width="640" height="258" role="img" aria-labelledby="t d">
+  <title id="t">O menu "Minhas mesas" do Estime Ai</title>
+  <desc id="d">O menu aberto com as opções "Criar nova mesa", "Apagar esta mesa" e "Ir para" outra mesa, ao lado de "Copiar link da mesa".</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #262626; font-size: 14px; }
+    .link { fill: #1890ff; }
+    .danger { fill: #ff4d4f; }
+    .ic { fill: none; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="639" height="257" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+
+  <!-- page header, right side -->
+  <text x="24" y="50" fill="#bfbfbf">Parar</text>
+  <line x1="84" y1="36" x2="84" y2="54" stroke="#e8e8e8"/>
+  <text x="104" y="50" class="link">Minhas mesas</text>
+  <path d="M202 43l4 4 4-4" class="ic" stroke="#1890ff"/>
+  <line x1="228" y1="36" x2="228" y2="54" stroke="#e8e8e8"/>
+  <text x="246" y="50">Copiar link da mesa</text>
+  <rect x="384.5" y="38.5" width="8" height="11" rx="1" class="ic" stroke="#1890ff"/>
+  <path d="M388 36.5h7.5a1 1 0 0 1 1 1v10" class="ic" stroke="#1890ff"/>
+  <line x1="0" y1="76" x2="640" y2="76" stroke="#f0f0f0"/>
+
+  <!-- dropdown -->
+  <rect x="96" y="66" width="268" height="168" rx="2" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="100" y="74" width="260" height="36" fill="#f5f5f5"/>
+  <text x="116" y="97" class="link">Criar nova mesa</text>
+  <text x="116" y="137" class="danger">Apagar esta mesa</text>
+  <line x1="100" y1="156" x2="360" y2="156" stroke="#f0f0f0"/>
+  <text x="116" y="181" class="link">Ir para "Time de Pagamentos"</text>
+  <text x="116" y="217" class="link">Ir para "Planning Sprint 41"</text>
+</svg>

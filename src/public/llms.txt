@@ -9,14 +9,25 @@
 - Todos votam em segredo; quando todos votaram, alguém clica em "Revelar cartas" e, depois, em "Iniciar nova votação" para a próxima rodada.
 
 ## Recursos
+- Cartas 0, 1, 2, 4, 8, 16, 32 e 64 (potências de 2), mais "?" (falta informação) e café (pausa).
 - Sem cadastro: não pede e-mail nem senha; cada pessoa escolhe o nome que aparece na mesa.
 - Lista de tarefas da mesa, com título e link opcional (por exemplo, para o card no Jira), votadas uma a uma ou juntas.
 - Resultado da rodada com a quantidade de votos por carta, o total e a média.
 - Contagem regressiva para limitar o tempo de cada votação.
 - Várias mesas, uma por time, e envio de sugestões e relatos de bug pelo próprio app.
 
+## Guias
+- O que é Scrum Poker e por que ele funciona: https://estimeai.com.br/guias/o-que-e-scrum-poker
+- Story points e a sequência de Fibonacci: https://estimeai.com.br/guias/story-points-e-fibonacci
+- Como conduzir uma sessão de Scrum Poker: https://estimeai.com.br/guias/como-conduzir-uma-sessao
+- Scrum Poker com time remoto: https://estimeai.com.br/guias/scrum-poker-remoto
+- O que fazer quando os votos divergem: https://estimeai.com.br/guias/votos-divergentes
+
 ## Links
 - Site: https://estimeai.com.br/
 - Abrir o app: https://app.estimeai.com.br
+- Como funciona (passo a passo): https://estimeai.com.br/como-funciona
+- Sobre: https://estimeai.com.br/sobre
+- Contato: https://estimeai.com.br/contato
 - Política de Privacidade: https://estimeai.com.br/privacidade
 - Termos de Uso: https://estimeai.com.br/termos

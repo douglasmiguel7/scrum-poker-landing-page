@@ -54,6 +54,43 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.png',
+    nav: [
+      { text: 'Como funciona', link: '/como-funciona' },
+      { text: 'Guias', link: '/guias/', activeMatch: '/guias/' },
+      { text: 'Sobre', link: '/sobre' },
+      { text: 'Contato', link: '/contato' },
+      { text: 'Abrir o app', link: 'https://app.estimeai.com.br' },
+    ],
+    sidebar: {
+      '/guias/': [
+        {
+          text: 'Guias',
+          items: [
+            { text: 'Todos os guias', link: '/guias/' },
+            { text: 'O que é Scrum Poker', link: '/guias/o-que-e-scrum-poker' },
+            {
+              text: 'Story points e Fibonacci',
+              link: '/guias/story-points-e-fibonacci',
+            },
+            {
+              text: 'Como conduzir uma sessão',
+              link: '/guias/como-conduzir-uma-sessao',
+            },
+            {
+              text: 'Scrum Poker com time remoto',
+              link: '/guias/scrum-poker-remoto',
+            },
+            {
+              text: 'Quando os votos divergem',
+              link: '/guias/votos-divergentes',
+            },
+          ],
+        },
+      ],
+    },
+    sidebarMenuLabel: 'Menu',
+    darkModeSwitchLabel: 'Aparência',
+    externalLinkIcon: true,
     outline: { label: 'Nesta página' },
     returnToTopLabel: 'Voltar ao topo',
     lastUpdated: { text: 'Atualizado em' },
